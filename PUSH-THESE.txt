@@ -1,0 +1,39 @@
+CBC TUTOR DROP, November 17, 2026
+
+FILES IN THIS ZIP
+
+cbc-tutor.html
+  The whole app in one file. The pictures are built in, so there is no images folder to upload.
+  Upload it to the top level of the repo.
+
+compliance-notes.md
+  The accessibility notes for the app. Upload it next to cbc-tutor.html.
+  If the repo already has a compliance-notes.md for other pages, rename this one
+  cbc-compliance-notes.md before you upload so it does not replace yours.
+
+PUSH-THESE.txt
+  This list. Do not upload it.
+
+NOT IN THIS ZIP
+  CBC-case-walkthrough-worksheet.pdf and CBC-case-answer-key.pdf.
+  Those are for printing. The app does not link to them, so it works without them.
+  Keep the answer key out of any public repo.
+
+WHERE IT GOES
+
+Option A (recommended): a new repo of its own, for example drsrennie-stack/blood-lab
+  1. Create the repo, public.
+  2. Add file > Upload files > drag in cbc-tutor.html and compliance-notes.md > Commit.
+  3. Settings > Pages > Deploy from a branch > main > / (root) > Save.
+  4. Address: https://drsrennie-stack.github.io/blood-lab/cbc-tutor.html
+
+Option B: the physiology repo, drsrennie-stack/human-physiology-Fa26
+  1. Add file > Upload files > drag in cbc-tutor.html > Commit.
+  2. Address: https://drsrennie-stack.github.io/human-physiology-Fa26/cbc-tutor.html
+
+CANVAS EMBED (change the address if you use Option B)
+
+<iframe src="https://drsrennie-stack.github.io/blood-lab/cbc-tutor.html" title="CBC Tutor and Practice" width="100%" height="1400" style="border:0;" allowfullscreen></iframe>
+
+The app sends its height to the page that holds it. Canvas does not listen for that
+message, so the height above is fixed at 1400. Raise it if you see a second scroll bar.
